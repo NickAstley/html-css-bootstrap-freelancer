@@ -18,7 +18,7 @@ body {
     font-size: 1.5rem;
 }
 
-.jumbo-content {
+.jumbo-section {
     background-color: var(--second-color);
 }
 
@@ -34,4 +34,17 @@ body {
     height: 5px;
     border-radius: 20px;
     background-color: white;
+}
+
+.line-divider-dark {
+    background-color: var(--main-color);
+}
+
+.portfolio-section {
+    color: var(--main-color);
+}
+
+.project-img {
+    width: 100%;
+    border-radius: 20px;
 }
