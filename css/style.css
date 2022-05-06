@@ -2,7 +2,12 @@
 
 :root {
     --main-color: #2C3E50;
+    --main-color-light: #3A546D;
     --second-color: #1ABC9C;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -19,6 +24,7 @@ body {
 }
 
 .jumbo-section {
+    padding-top: 5rem;
     background-color: var(--second-color);
 }
 
@@ -51,4 +57,24 @@ body {
 
 .about-section {
     background-color: var(--second-color);
+}
+
+.circle {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.teal-text {
+    color: var(--second-color);
+}
+
+.footer-main {
+    background-color: var(--main-color-light);
+}
+
+.footer-copyright {
+    background-color: var(--main-color);
 }
