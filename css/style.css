@@ -29,7 +29,7 @@ body {
 }
 
 .profile-img {
-    width: 50%;
+    width: 250px;
 }
 
 .main-title {
@@ -37,7 +37,7 @@ body {
 }
 
 .line-divider {
-    height: 5px;
+    height: 3px;
     border-radius: 20px;
     background-color: white;
 }
@@ -77,4 +77,10 @@ body {
 
 .footer-copyright {
     background-color: var(--main-color);
+}
+
+@media screen and (min-width:768px) {
+    .section-title-lg {
+        font-size: 3rem !important;
+    }
 }

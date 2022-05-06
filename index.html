@@ -16,8 +16,8 @@
     <!-- Header -->
     <header>
         <!-- Navbar -->
-        <nav class="navbar fixed-top start-0 end-0 navbar-expand-lg style-navbar text-uppercase fw-bold">
-            <div class="container">
+        <nav class="navbar navbar-expand-md fixed-top start-0 end-0 navbar-expand-lg style-navbar text-uppercase fw-bold py-3">
+            <div class="container-md">
                 <!-- Logo o nome sito che compare in alto a sinistra nella navbar -->
                 <a class="navbar-brand link-light" href="#">Start Bootstrap</a>
                 <!-- Bottone per il menu a comparsa in mobile DA AGGIUSTARE -->
@@ -71,7 +71,7 @@
         <div class="section portfolio-section py-5 text-center text-uppercase">
             <div class="container">
                 <!-- Titolo -->
-                <h2 class="fw-bold fs-1 mb-4">Portfolio</h2>
+                <h2 class="fw-bold fs-1 section-title-lg mb-4">Portfolio</h2>
                 <!-- Divisore con la stella -->
                 <div class="row justify-content-center align-items-center g-0 mb-3">
                     <div class="col-2">
@@ -86,22 +86,22 @@
                 </div>
                 <!-- Flexbox di immagini -->
                 <div class="row gy-4">
-                    <div>
+                    <div class="col-md-6 col-lg-4">
                         <img class="project-img" src="img/cabin.png" alt="Rifugio">
                     </div>
-                    <div>
+                    <div class="col-md-6 col-lg-4">
                         <img class="project-img" src="img/cake.png" alt="Torta">
                     </div>
-                    <div>
+                    <div class="col-md-6 col-lg-4">
                         <img class="project-img" src="img/circus.png" alt="Circo">
                     </div>
-                    <div>
+                    <div class="col-md-6 col-lg-4">
                         <img class="project-img" src="img/game.png" alt="Controller">
                     </div>
-                    <div>
+                    <div class="col-md-6 col-lg-4">
                         <img class="project-img" src="img/safe.png" alt="Cassaforte">
                     </div>
-                    <div>
+                    <div class="col-md-6 col-lg-4">
                         <img class="project-img" src="img/submarine.png" alt="Sottomarino">
                     </div>
                 </div>
@@ -111,7 +111,7 @@
         <div class="section about-section pt-5 pb-4 text-white">
             <div class="container">
                 <!-- Titolo -->
-                <h2 class="fw-bold fs-1 mb-4 text-center text-uppercase">About</h2>
+                <h2 class="fw-bold fs-1 section-title-lg mb-4 text-center text-uppercase">About</h2>
                 <!-- Divisore con la stella -->
                 <div class="row justify-content-center align-items-center g-0 mb-3 text-center">
                     <div class="col-1">
@@ -125,9 +125,15 @@
                     </div>
                 </div>
                 <!-- Paragrafi -->
-                <div class="w-75 fs-3 mx-auto mb-5">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                    <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="mb-5">
+                    <div class="row justify-content-center">
+                        <div class="col-10 col-md-6 col-lg-4">
+                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                        </div>
+                        <div class="col-10 col-md-6 col-lg-4">
+                            <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="text-center">
                     <button type="button" class="btn btn-outline-primary">Download</button>
@@ -138,9 +144,9 @@
         <div class="section pt-5 pb-4">
             <div class="container">
                 <!-- Titolo -->
-                <h2 class="fw-bold fs-1 text-center text-uppercase mb-4">Contact me</h2>
+                <h2 class="fw-bold fs-1 section-title-lg text-center text-uppercase mb-4">Contact me</h2>
                 <!-- Divisore con la stella -->
-                <div class="row justify-content-center align-items-center g-0 mb-3">
+                <div class="row justify-content-center align-items-center g-0 mb-3 text-center">
                     <div class="col-2">
                         <div class="line-divider line-divider-dark"></div>
                     </div>
@@ -158,46 +164,52 @@
     </main>
     <!-- Footer -->
     <footer class="text-white text-center">
-        <div class="container py-5 fs-5 footer-main">
-            <div class="row">
-                <!-- Location -->
-                <div>
-                    <div class="mb-5">
-                        <h5 class="fw-normal text-uppercase">Location</h5>
-                        <span>2215 John Daniel Drive Clark, MO 54243</span>
-                    </div>
-                </div>
-                <!-- Around the web -->
-                <div>
-                    <div class="mb-5">
-                        <h5 class="fw-normal text-uppercase">Around the web</h5>
-                        <div>
-                            <a href="#" class="px-1 link-light">
-                                <i class="circle fa-brands fa-facebook-f"></i>
-                            </a>
-                            <a href="#" class="px-1 link-light">
-                                <i class="circle fa-brands fa-google-plus-g"></i>
-                            </a>
-                            <a href="#" class="px-1 link-light">
-                                <i class="circle fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="#" class="px-1 link-light">
-                                <i class="circle fa-brands fa-linkedin-in"></i>
-                            </a>
+        <!-- Main footer -->
+        <div class="py-5 fs-5 footer-main">
+            <div class="container">
+                <div class="row">
+                    <!-- Location -->
+                    <div class="col-md-4">
+                        <div class="mb-5">
+                            <h5 class="fw-normal text-uppercase">Location</h5>
+                            <span>2215 John Daniel Drive Clark, MO 54243</span>
                         </div>
                     </div>
-                </div>
-                <!-- About freelancer -->
-                <div>
-                    <div>
-                        <h5 class="fw-normal text-uppercase">About Freelancer</h5>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <span class="teal-text">Start Bootstrap</span>.</p>
+                    <!-- Around the web -->
+                    <div class="col-md-4">
+                        <div class="mb-5">
+                            <h5 class="fw-normal text-uppercase">Around the web</h5>
+                            <div>
+                                <a href="#" class="m-1 d-inline-block link-light">
+                                    <i class="circle fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="m-1 d-inline-block link-light">
+                                    <i class="circle fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a href="#" class="m-1 d-inline-block link-light">
+                                    <i class="circle fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="#" class="m-1 d-inline-block link-light">
+                                    <i class="circle fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- About freelancer -->
+                    <div class="col-md-4">
+                        <div>
+                            <h5 class="fw-normal text-uppercase">About Freelancer</h5>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <span class="teal-text">Start Bootstrap</span>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container py-5 footer-copyright">
-            <span>Copyright © Your Website 2019</span>
+        <!-- Copyright -->
+        <div class="py-5 footer-copyright">
+            <div class="container">
+                <span>Copyright © Your Website 2019</span>
+            </div>
         </div>
     </footer>
     <!-- Bootstrap JavaScript -->
