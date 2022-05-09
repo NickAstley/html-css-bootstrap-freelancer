@@ -14,20 +14,19 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <header class="bg-dark sticky-top">
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-md fixed-top start-0 end-0 navbar-expand-lg style-navbar text-uppercase fw-bold py-3">
-            <div class="container-md">
+        <div class="container">
+            <nav class="navbar navbar-expand-md text-uppercase fw-bold py-3">
                 <!-- Logo o nome sito che compare in alto a sinistra nella navbar -->
                 <a class="navbar-brand link-light" href="#">Start Bootstrap</a>
-                <!-- Bottone per il menu a comparsa in mobile DA AGGIUSTARE -->
-
+                <!-- Bottone per il menu a comparsa in mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-hamburger-icon"><i class="fa-solid fa-bars"></i></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- Link di navigazione -->
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link link-light" href="#">Portfolio</a>
                         </li>
@@ -39,104 +38,106 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
     <!-- Main content -->
     <main>
         <!-- Jumbo -->
-        <div class="section jumbo-section pb-5 text-white text-center text-uppercase">
+        <div class="section bg-primary pt-3 pb-4 text-white text-center text-uppercase">
             <div class="container">
                 <!-- Immagine jumbo -->
                 <img class="profile-img mb-3" src="img/avatar.svg" alt="Immagine profilo">
                 <!-- Titolo -->
-                <h1 class="main-title fw-bold mb-4">Start Bootstrap</h1>
+                <h1 class="display-3 fw-bold">Start Bootstrap</h1>
                 <!-- Divisore con la stella -->
                 <div class="row justify-content-center align-items-center g-0 mb-3">
-                    <div class="col-2">
-                        <div class="line-divider"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-white rounded"></div>
                     </div>
                     <div class="col-1">
                         <i class="fs-1 fa-solid fa-star"></i>
                     </div>
-                    <div class="col-2">
-                        <div class="line-divider"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-white rounded"></div>
                     </div>
                 </div>
                 <!-- Sottotitolo -->
-                <div class="fs-4">Graphic Artist - Web Designer - Illustrator</div>
+                <h6>Graphic Artist - Web Designer - Illustrator</h6>
             </div>
         </div>
         <!-- Portfolio -->
-        <div class="section portfolio-section py-5 text-center text-uppercase">
+        <div class="section text-secondary py-5 text-center text-uppercase">
             <div class="container">
                 <!-- Titolo -->
-                <h2 class="fw-bold fs-1 section-title-lg mb-4">Portfolio</h2>
+                <h2 class="display-5 fw-bold mb-4">Portfolio</h2>
                 <!-- Divisore con la stella -->
                 <div class="row justify-content-center align-items-center g-0 mb-3">
-                    <div class="col-2">
-                        <div class="line-divider line-divider-dark"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-dark rounded"></div>
                     </div>
                     <div class="col-1">
                         <i class="fs-1 fa-solid fa-star"></i>
                     </div>
-                    <div class="col-2">
-                        <div class="line-divider line-divider-dark"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-dark rounded"></div>
                     </div>
                 </div>
                 <!-- Flexbox di immagini -->
                 <div class="row gy-4">
                     <div class="col-md-6 col-lg-4">
-                        <img class="project-img" src="img/cabin.png" alt="Rifugio">
+                        <img class="project-img w-100" src="img/cabin.png" alt="Rifugio">
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <img class="project-img" src="img/cake.png" alt="Torta">
+                        <img class="project-img w-100" src="img/cake.png" alt="Torta">
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <img class="project-img" src="img/circus.png" alt="Circo">
+                        <img class="project-img w-100" src="img/circus.png" alt="Circo">
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <img class="project-img" src="img/game.png" alt="Controller">
+                        <img class="project-img w-100" src="img/game.png" alt="Controller">
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <img class="project-img" src="img/safe.png" alt="Cassaforte">
+                        <img class="project-img w-100" src="img/safe.png" alt="Cassaforte">
                     </div>
                     <div class="col-md-6 col-lg-4">
-                        <img class="project-img" src="img/submarine.png" alt="Sottomarino">
+                        <img class="project-img w-100" src="img/submarine.png" alt="Sottomarino">
                     </div>
                 </div>
             </div>
         </div>
         <!-- About -->
-        <div class="section about-section pt-5 pb-4 text-white">
+        <div class="section bg-primary pt-5 pb-4 text-white">
             <div class="container">
                 <!-- Titolo -->
-                <h2 class="fw-bold fs-1 section-title-lg mb-4 text-center text-uppercase">About</h2>
+                <h2 class="display-5 fw-bold mb-4 text-center text-uppercase">About</h2>
                 <!-- Divisore con la stella -->
                 <div class="row justify-content-center align-items-center g-0 mb-3 text-center">
-                    <div class="col-1">
-                        <div class="line-divider line-divider"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-white rounded"></div>
                     </div>
                     <div class="col-1">
                         <i class="fs-1 fa-solid fa-star"></i>
                     </div>
-                    <div class="col-1">
-                        <div class="line-divider line-divider"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-white rounded"></div>
                     </div>
                 </div>
                 <!-- Paragrafi -->
-                <div class="mb-5">
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-md-6 col-lg-4">
-                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                        </div>
-                        <div class="col-10 col-md-6 col-lg-4">
-                            <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                <div class="row mb-5 justify-content-center">
+                    <div class="col-6 col-sm-10">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
-                    <button type="button" class="btn btn-outline-primary">Download</button>
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
                 </div>
             </div>
         </div>
@@ -144,28 +145,48 @@
         <div class="section pt-5 pb-4">
             <div class="container">
                 <!-- Titolo -->
-                <h2 class="fw-bold fs-1 section-title-lg text-center text-uppercase mb-4">Contact me</h2>
+                <h2 class="display-5 fw-bold text-center text-uppercase mb-4">Contact me</h2>
                 <!-- Divisore con la stella -->
                 <div class="row justify-content-center align-items-center g-0 mb-3 text-center">
-                    <div class="col-2">
-                        <div class="line-divider line-divider-dark"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-dark rounded"></div>
                     </div>
                     <div class="col-1">
                         <i class="fs-1 fa-solid fa-star"></i>
                     </div>
-                    <div class="col-2">
-                        <div class="line-divider line-divider-dark"></div>
+                    <div class="col-2 col-xl-1">
+                        <div class="border border-2 border-dark rounded"></div>
                     </div>
                 </div>
-                <!-- Form MANCANTE-->
-
+                <!-- Form-->
+                <div class="row justify-content-center text-secondary">
+                    <div class="col-6 col-sm-10">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingName" placeholder=" ">
+                            <label for="floatingName">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder=" ">
+                            <label for="floatingEmail">Email Address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingPhoneNumber" placeholder=" ">
+                            <label for="floatingPhoneNumber">Phone Number</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="floatingMessage" placeholder=" "></textarea>
+                            <label for="floatingMessage">Message</label>
+                        </div>
+                        <input class="btn bg-primary text-white" type="submit" value="Send">
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <!-- Footer -->
     <footer class="text-white text-center">
         <!-- Main footer -->
-        <div class="py-5 fs-5 footer-main">
+        <div class="py-5 bg-secondary">
             <div class="container">
                 <div class="row">
                     <!-- Location -->
@@ -199,14 +220,14 @@
                     <div class="col-md-4">
                         <div>
                             <h5 class="fw-normal text-uppercase">About Freelancer</h5>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by <span class="teal-text">Start Bootstrap</span>.</p>
+                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="text-primary">Start Bootstrap</a>.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Copyright -->
-        <div class="py-5 footer-copyright">
+        <div class="py-5 bg-dark">
             <div class="container">
                 <span>Copyright © Your Website 2019</span>
             </div>
